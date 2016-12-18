@@ -182,12 +182,16 @@ a {
     background-color: #2d72d9;
     color: #eeeeee;
     padding: 0 12px;
-    margin: 2px 4px;
+    margin: 3px;
     border-radius: 3px;
 
     overflow: hidden;
     white-space: nowrap;
     text-overflow: ellipsis;
+}
+
+.btn--left {
+    float: left;
 }
 
 .btn:focus,
