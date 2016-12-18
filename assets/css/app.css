@@ -43,6 +43,22 @@ body {
     color: #191919;
 }
 
+/* img */
+img {
+    width: 100%;
+    height: auto;
+}
+
+/* strong */
+strong {
+    font-weight: 700;
+}
+
+a {
+    text-decoration: none;
+    transition: color 300ms ease;
+}
+
 /* width wrapper */
 .wrapper {
     display: block;
@@ -159,11 +175,11 @@ body {
 }
 
 .btn {
-    display: block;
+    display: inline-block;
     width: auto;
     line-height: 36px;
     height: 36px;
-    background-color: #205bb3;
+    background-color: #2d72d9;
     color: #eeeeee;
     padding: 0 12px;
     border-radius: 3px;
@@ -172,21 +188,13 @@ body {
 .btn:focus,
 .btn:hover {
     color: #ffffff;
+    background-color: #205bb3;
 }
 
 /* header */
 .header {
     padding: 80px 0 20px;
     text-align: center;
-}
-
-.header__image {
-    margin: 30px auto;
-    width: 250px;
-    height: 250px;
-    border-radius: 50%;
-    background: url('../img/matus-petrofcik-350x350.jpg') no-repeat center;
-    background-size: cover;
 }
 
 .header__title {
@@ -268,29 +276,6 @@ body {
 .notFound__title {
     margin: 20px auto;
     font-size: 36px;
-    font-weight: 700;
-}
-
-/* links */
-a {
-    text-decoration: none;
-    color: inherit;
-    transition: color 300ms ease;
-}
-
-.section__paragraph a,
-.footer__text a {
-    color: #205bb3;
-}
-
-/* img */
-img {
-    width: 100%;
-    height: auto;
-}
-
-/* strong */
-strong {
     font-weight: 700;
 }
 
