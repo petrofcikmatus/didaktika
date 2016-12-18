@@ -182,7 +182,7 @@ a {
     background-color: #2d72d9;
     color: #eeeeee;
     padding: 0 12px;
-    margin: 6px 3px;
+    margin: 2px 4px;
     border-radius: 3px;
 
     overflow: hidden;
@@ -232,7 +232,6 @@ a {
     margin: 15px 12px;
     font-size: 18px;
     line-height: 28px;
-    text-align: justify;
 }
 
 /* footer */
