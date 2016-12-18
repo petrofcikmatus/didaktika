@@ -182,7 +182,12 @@ a {
     background-color: #2d72d9;
     color: #eeeeee;
     padding: 0 12px;
+    margin: 6px 3px;
     border-radius: 3px;
+
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
 }
 
 .btn:focus,
